@@ -41,7 +41,10 @@
             <div class ="contact ms-auto d-none d-xl-block">
                 <span style="vertical-align: 25px" class="navbar-text">Call Us:</span>
                 <span style="vertical-align: 25px"class="navbar-text text-primary">+48 123 456 789</span>
-                <span style="vertical-align: 25px" class="dropdown">EN v</span>
+                <select class="language">
+                <option value="0">EN</option>
+                <option value="0">PL</option>
+                </select>
             
                 <button style="vertical-align: 25px" class="btn btn-outline-primary" type="button">Contact Us</button>
                     
@@ -65,10 +68,18 @@
                             
             <div class="row top-buffer" style="height:400px;">
                 <div class="col-sm-8 col-md-6 col-lg-3">
-                    <div style="position: relative;">
+                    <div class="video-container" style="position: relative;">
+                        <iframe
+                        src="https://www.youtube.com/watch?v=gcqBZlG0FAk"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+                        allowfullscreen>
+                    </iframe>
+                        <button id="video">
                         <img class="bluecircle" src="../img/Ellipse_1.png" alt="">
                         <img class="line" src="../img/Line_4.png" class ="img-fluid" alt="">
                         <img class="bluetriangle" src="../img/bluetriangle.png" class ="img-fluid" alt="">
+                        </button>
                     </div>    
                 </div>     
                 <div class="video col-sm-4 col-md-6 col-lg-1">
@@ -97,23 +108,46 @@
                     <p>Our blog</p>
                     <h1>Lorem ipsum dolor</h1>
                 </div>
-                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6"> 
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4"> 
                         <img src="../img/Line_4.png" class="img-fluid" alt="">
                     
                 </div>
-                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-3">
-                    <img class="image_3 img-fluid" src="../img/Ellipse_8.png" alt="">
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-5">
+                    <img class="image_3 img-fluid" src="../img/circlewithdot.png" alt="">
                 </div>
 
             </div>
         
 
             <div class="row justify-content-center top-buffer" style="height:600px;">
-                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-1"><img class=" white_dot" src="../img/Ellipse_56.png" class ="img_8" alt=""></div>
-                <div class="col-sm-4 col-md-4 col-lg-3"><img src="../img/Rectangle_14.png" class ="img_4" alt=""></div>
-                <div class="col-sm-4 col-md-4 col-lg-3"><img src="../img/Rectangle_14.png" class ="img_5 img-fluid" alt=""></div>
-                <div class="col-sm-4 col-md-4 col-lg-3"><img src="../img/Rectangle_14.png" class ="img_6 img-fluid" alt=""></div>
-                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2"><img  src="../img/Ellipse_40.png" class ="img_7" alt=""></div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-1">
+                    <img class=" white_dot" src="../img/Ellipse_56.png" class ="img_8" alt=""></div>
+                <div class="first-blog-post text-resizing col-sm-4 col-md-4 col-lg-3">
+                    
+                    <h2>Frank Lampard</h2>
+                    <h3>20 Jan, 2023</h3>
+                    <p>Lorem ipsum dolor<br> sit amet,<br>consectetur</p>
+                </div>
+                <div class="second-blog-post text-rezising  col-sm-4 col-md-4 col-lg-3">
+
+                    <h2>Paul Scholes</h2>
+                    <h3>15 Jan, 2023</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p id="smallertext" class="text-resizing">Lorem ipsum dolor sit amet, consectetur adipisci elit sour. Commodo amet posuere porta ener shlppe up.</p>
+                    <button class="readmore"><a href="#">Read more</a></button>
+                </div>
+                <div class="second-blog-post text-rezising col-sm-4 col-md-4 col-lg-3">
+                    
+                    <h2>Hary Kane</h2>
+                    <h3>15 Jan, 2023</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p id="smallertext">Lorem ipsum dolor sit amet, consectetur adipisci elit sour. Commodo amet posuere porta ener shlppe up.</p>
+                    <button class="readmore"><a href="#">Read more</a></button>
+                </div>
+                <div class="d-none d-sm-none d-md-none d-lg-block col-lg-2">
+                    <img  src="../img/Ellipse_40.png" class ="img_7" alt="">
+                    
+                </div>
                 
                     
             
