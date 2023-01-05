@@ -4,7 +4,6 @@
 // }
 
 function playVid() {
-    console.log("cosss");
     let vid = document.getElementById("myFrame"); 
     vid.style.width = "100%";
     vid.style.height = "100%";
